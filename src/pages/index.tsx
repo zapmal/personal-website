@@ -1,6 +1,12 @@
 import Head from 'next/head'
 
+import styled from 'styled-components';
+
 import styles from '../../styles/Home.module.css'
+
+const Example = styled.div`
+  font-size: 40px;
+`;
 
 const Home = () => {
   return (
@@ -9,6 +15,8 @@ const Home = () => {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Example>lol</Example>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
