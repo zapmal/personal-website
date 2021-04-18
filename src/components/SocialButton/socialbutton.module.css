@@ -1,0 +1,25 @@
+.button {
+  display: inline-block;
+  padding: .4rem .7rem;
+  border: 0.1rem solid #b5c0cd;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: #000000;
+  text-align: center;
+  background-color: #ffffff;
+  outline: none;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.button:hover {
+  border: 0.1rem solid #3e4e63;
+  color: #ffffff;
+}
+
+.twitter:hover {
+  border: 0.1rem solid #1DA1f2;
+}

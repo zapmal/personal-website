@@ -1,0 +1,42 @@
+.container {
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: .4rem auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headingHome {
+  font-size: 4rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+  animation-delay: 15s;
+  animation: color-change 5s infinite;
+}
+
+.slash {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+@keyframes color-change {
+  0% {
+    color: black;
+  }
+  50% {
+    color: #0070f3;
+  }
+  100% {
+    color: black;
+  }
+}
