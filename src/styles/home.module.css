@@ -20,9 +20,10 @@
   scale: 1.2;
 }
 
-.code { 
-  font-size: 7px; 
+.disabled {
+  opacity: .5;
 }
+
 .socials {
   text-align: center;
 }

@@ -1,7 +1,6 @@
-import { useEffect } from 'react';
-
 import Head from 'next/head'
 import Link from 'next/link';
+import cn from 'classnames';
 
 import Layout from '../components/Layout';
 import SocialButton from '../components/SocialButton';
@@ -17,9 +16,6 @@ const ROUTES = [
   { name: '/projects', disabled: true },
 ]
 
-/**
- * if the route is disabled don't allow the click.
- */
 const Home = () => {
   // useEffect(() => {
   //   document.body.style.backgroundColor = 'black';
@@ -35,7 +31,10 @@ const Home = () => {
         <ul className={styles.unorderedList}>
           {ROUTES.map((route, index) => (
             <Link href={route.name} key={index}>
-              <li className={styles.listItem}>
+              <li className={cn({
+                [styles.listItem]: true,
+                [styles.disabled]: route.disabled,
+              })}>
                 <a href={route.name}>{route.name}</a>
               </li>
             </Link>
