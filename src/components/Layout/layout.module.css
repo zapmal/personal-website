@@ -10,26 +10,47 @@
   align-items: center;
 }
 
-.headingHome {
+.heading {
   font-size: 4rem;
-  line-height: 1.2;
+  line-height: 1.1;
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
   animation-delay: 15s;
-  animation: color-change 5s infinite;
+}
+
+.headingName {
+  color: #0070f3;
+}
+
+.headingTitle {
+  background-image: linear-gradient(90deg, #7928CA, #FF0080);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .slash {
-  font-size: 4rem;
+  font-size: 5rem;
   margin: 0;
+  transform: rotateX(90);
+  animation: blue-highlight 5s infinite;
+}
+
+.linkWrapper {
+  display: flex;
+}
+
+.link {
+  margin-right: 10px;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .backToHome {
   margin: 3rem 0 0;
 }
 
-@keyframes color-change {
+@keyframes blue-highlight {
   0% {
     color: black;
   }

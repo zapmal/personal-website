@@ -28,9 +28,9 @@ const Layout: React.FC<Props> = ({ children, home }) => {
       <header className={styles.header}>
         {home ? (
           <>
-            <h1 className={styles.headingHome}>Manuel Zapata</h1>
+            <h1 className={`${styles.heading} ${styles.headingName}`}>Manuel Zapata</h1>
             <h1 className={styles.slash}>/</h1>
-            <h1 className={styles.headingHome}>Software Engineer</h1>
+            <h1 className={`${styles.heading} ${styles.headingTitle}`}>Software Engineer</h1>
           </>
         ) : (
           <>
@@ -39,6 +39,22 @@ const Layout: React.FC<Props> = ({ children, home }) => {
                 <a className={utilStyles.colorInherit}>Manuel Zapata</a>
               </Link>
             </h2>
+            <div className={styles.linkWrapper}>
+              <a 
+                className={styles.link}
+                href='https://twitter.com/zapmal0'
+                target='_blank'
+              >
+                Twitter
+              </a>
+              <a 
+                className={styles.link}
+                href='https://github.com/zapmal'
+                target='_blank'
+              >
+                GitHub
+              </a>
+            </div>
           </>
         )}
       </header>
@@ -46,7 +62,7 @@ const Layout: React.FC<Props> = ({ children, home }) => {
       {!home && (
         <div className={styles.backToHome}>
           <Link href='/'>
-            <a>← Back to home</a>
+            <a>← Home</a>
           </Link>
         </div>
       )}
