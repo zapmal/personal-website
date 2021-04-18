@@ -51,15 +51,6 @@
   align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
 .grid {
   display: flex;
   align-items: center;
@@ -108,4 +99,19 @@
     width: 100%;
     flex-direction: column;
   }
+
+  .footer {
+    text-align: center;
+  }
 }
+
+@media (max-width: 400px) {
+  .unorderedList {
+    flex-direction: column;
+  }
+
+  .listItem {
+    padding-top: 5px;
+  }
+}
+ 

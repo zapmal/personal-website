@@ -61,3 +61,14 @@
     color: black;
   }
 }
+
+@media (max-width: 600px) {
+  .heading {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .typewriter {
+    font-size: 1.5rem;
+  }
+}
