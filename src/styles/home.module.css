@@ -29,16 +29,16 @@
 }
 
 .socials button {
-  margin: 1rem;
+  margin: 1.5rem;
 }
 
 .footer {
-  width: 100%;
   padding: 20px 0;
-  border-top: 1.5px solid #d6d6d6;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  border-top: 1.5px solid #d6d6d6;
 }
 
 .footer small {

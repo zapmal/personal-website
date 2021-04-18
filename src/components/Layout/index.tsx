@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import ReactTypingEffect from 'react-typing-effect';
 
 import styles from './layout.module.css';
 import utilStyles from '../../styles/utils.module.css';
@@ -28,9 +29,20 @@ const Layout: React.FC<Props> = ({ children, home }) => {
       <header className={styles.header}>
         {home ? (
           <>
-            <h1 className={`${styles.heading} ${styles.headingName}`}>Manuel Zapata</h1>
-            <h1 className={styles.slash}>/</h1>
-            <h1 className={`${styles.heading} ${styles.headingTitle}`}>Software Engineer</h1>
+            <h1 className={`${styles.heading} ${styles.headingName}`}>
+              Manuel Zapata
+            </h1>
+            <h1 className={styles.typewriter}>
+              <ReactTypingEffect
+                text={['code', 'take breaks', 'read', 'do silly stuff']}
+                speed={100}
+                eraseDelay={1500}
+                typingDelay={1000}
+              />
+            </h1>
+            <h1 className={`${styles.heading} ${styles.headingTitle}`}>
+              Software Engineer
+            </h1>
           </>
         ) : (
           <>
@@ -40,14 +52,14 @@ const Layout: React.FC<Props> = ({ children, home }) => {
               </Link>
             </h2>
             <div className={styles.linkWrapper}>
-              <a 
+              <a
                 className={styles.link}
                 href='https://twitter.com/zapmal0'
                 target='_blank'
               >
                 Twitter
               </a>
-              <a 
+              <a
                 className={styles.link}
                 href='https://github.com/zapmal'
                 target='_blank'

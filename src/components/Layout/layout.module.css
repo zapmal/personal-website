@@ -29,8 +29,8 @@
   -webkit-text-fill-color: transparent;
 }
 
-.slash {
-  font-size: 5rem;
+.typewriter {
+  font-size: 4rem;
   margin: 0;
   transform: rotateX(90);
   animation: blue-highlight 5s infinite;

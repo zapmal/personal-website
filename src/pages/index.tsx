@@ -16,14 +16,9 @@ const ROUTES = [
   { name: '/now' },
   { name: '/blog', disabled: true },
   { name: '/projects', disabled: true },
-]
+];
 
 const Home = () => {
-  // useEffect(() => {
-  //   document.body.style.backgroundColor = 'black';
-  //   document.body.style.color = 'white';
-  // }, []);
-
   return (
     <Layout home>
       <Head>
