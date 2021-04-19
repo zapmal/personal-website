@@ -8,6 +8,8 @@ const About = () => {
     <Layout>
       <Head>
         <title>{`/about - ${SITE_TITLE}`}</title>
+        <meta name='description' content='This is my about page, get to know more about me.' />
+        <meta name='og:description' content='This is my about page, get to know more about me.' />
       </Head>
       <h2>
         About <em>me</em>
