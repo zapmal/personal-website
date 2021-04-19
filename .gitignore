@@ -33,6 +33,7 @@ yarn-error.log*
 # vercel
 .vercel
 
-\[id]\.tsx
-posts
+# \[id]\.tsx
+posts/pre-rendering.md
+posts/ssg-ssr.md
 TODO.md

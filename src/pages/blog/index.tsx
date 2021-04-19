@@ -29,7 +29,7 @@ const Blogs: React.FC<Props> = ({ allPostsData }) => {
         />
       </Head>
       <h2>Blog</h2>
-      {allPostsData.length > 0 ? (
+      {(allPostsData.length > 0 && allPostsData[0].id !== 'vercel') ? (
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <ul className={utilStyles.list}>
             {allPostsData.map(({ id, title, date }) => (
