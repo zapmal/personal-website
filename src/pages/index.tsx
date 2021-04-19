@@ -14,9 +14,9 @@ import { SITE_TITLE } from '../constants';
 const ROUTES = [
   { name: '/about' },
   { name: '/now' },
-  { name: '/blog', disabled: true },
-  { name: '/projects', disabled: true },
   { name: '/skills', },
+  { name: '/blog', disabled: true, },
+  { name: '/projects', disabled: true },
 ];
 
 const Home = () => {

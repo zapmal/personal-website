@@ -9,11 +9,13 @@ interface Props {
 
 const activeSocials = {
   github: {
+    alt: 'GitHub',
     href: 'https://github.com/zapmal',
     width: 30,
     height: 32,
   },
   twitter: {
+    alt: 'Twitter',
     href: 'https://twitter.com/zapmal0',
     width: 32,
     height: 32,
@@ -33,6 +35,7 @@ const SocialButton: React.FC<Props> = ({ social }) => {
           src={`/images/${social}.png`}
           width={activeSocials[social].width}
           height={activeSocials[social].height}
+          alt={activeSocials[social].alt}
         />
       </a>
     </button>

@@ -9,10 +9,7 @@ interface Props {
   home?: boolean;
 }
 
-/**
- * 
- */
-const Layout: React.FC<Props> = ({ children, home }) => {
+const Layout: React.FC<Props> = ({ home, children  }) => {
   return (
     <div className={styles.container}>
       <Head>
