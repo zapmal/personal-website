@@ -1,11 +1,13 @@
 import Head from 'next/head';
 import Layout from '../components/Layout';
 
+import { SITE_TITLE } from '../constants';
+
 const Now = () => {
   return (
     <Layout>
       <Head>
-        <title>/now - Manuel Zapata</title>
+        <title>{`/now - ${SITE_TITLE}`}</title>
       </Head>
       <h2>
         What I'm up to

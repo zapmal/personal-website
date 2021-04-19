@@ -16,6 +16,7 @@ const ROUTES = [
   { name: '/now' },
   { name: '/blog', disabled: true },
   { name: '/projects', disabled: true },
+  // { name: '/tech', },
 ];
 
 const Home = () => {

@@ -1,1 +1,1 @@
-export const SITE_TITLE = 'Manuel\'s website.';
+export const SITE_TITLE = 'Manuel Zapata';

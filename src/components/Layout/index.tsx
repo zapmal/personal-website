@@ -5,25 +5,22 @@ import ReactTypingEffect from 'react-typing-effect';
 import styles from './layout.module.css';
 import utilStyles from '../../styles/utils.module.css';
 
-export const siteTitle = "Manuel's Website";
-
 interface Props {
   home?: boolean;
 }
 
+/**
+ * 
+ */
 const Layout: React.FC<Props> = ({ children, home }) => {
   return (
     <div className={styles.container}>
       <Head>
         <link rel='icon' href='/favicon.ico' />
-        <meta name='description' content='Manuel\s (zapmal) Website' />
-        <meta
-          name='og:image'
-          content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-        />
-        <meta name='og:title' content={siteTitle} />
+        <meta name='title' content='Manuel Zapata - Software Engineer' />
+        <meta name='og:title' content='Manuel Zapata - Software Engineer' />
+        <meta name='description' content='Welcome to my personal space on the internet, come on, take a seat.' />
+        <meta name='og:description' content='Welcome to my personal space on the internet, come on, take a seat.' />
         <meta name='twitter:card' content='summary_large_image' />
       </Head>
       <header className={styles.header}>
