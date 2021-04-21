@@ -1,11 +1,9 @@
-import { useEffect } from 'react';
-
 import Head from 'next/head'
 import Link from 'next/link';
 import cn from 'classnames';
 
 import Layout from '../components/Layout';
-import SocialButton from '../components/SocialButton';
+import ContactButton from '../components/ContactButton';
 
 import styles from '../styles/home.module.css'
 
@@ -40,8 +38,9 @@ const Home = () => {
         </ul>
       </section>
       <section className={styles.socials}>
-        <SocialButton social='github' />
-        <SocialButton social='twitter' />
+        <ContactButton method='github' />
+        <ContactButton method='email' />
+        <ContactButton method='twitter' />
       </section>
       <footer className={styles.footer}>
         <small>2021 - Made with 💙 and Next.js, deployed on Vercel.</small>
