@@ -15,8 +15,8 @@ const ROUTES = [
   { name: '/about' },
   { name: '/now' },
   { name: '/skills', },
-  { name: '/blog', disabled: true, },
-  { name: '/projects', disabled: true },
+  // { name: '/blog', disabled: true, },
+  { name: '/projects', },
 ];
 
 const Home = () => {
@@ -31,7 +31,7 @@ const Home = () => {
             <Link href={route.name} key={index}>
               <li className={cn({
                 [styles.listItem]: true,
-                [styles.disabled]: route.disabled,
+                // [styles.disabled]: route.disabled,
               })}>
                 <a href={route.name}>{route.name}</a>
               </li>

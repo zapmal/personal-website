@@ -12,15 +12,15 @@ const Skills = () => {
         <meta name='og:description' content='Learn about my current skills.' />
       </Head>
       <h2>Skills</h2>
-      <small>
-        Mainly focused on backend development. Since ~2020 I've been moving
-        to a full stack approach and started experimenting with mobile development.
-      </small>
+      <p>
+        Mainly focused on backend development. Since ~2020 I've been moving to a more full stack
+        approach.
+      </p>
 
       <h3>Professionally</h3>
       <ul>
         <li>HTML / CSS.</li>
-        <li>JavaScript / TypeScript.</li>
+        <li>JavaScript.</li>
         <li>React.</li>
         <li>PHP / Laravel.</li>
         <li>Java.</li>
@@ -32,6 +32,7 @@ const Skills = () => {
 
       <h3>Personal Projects / Internships</h3>
       <ul>
+        <li>TypeScript.</li>
         <li>MongoDB / Redis.</li>
         <li>SCSS / SASS / Material UI.</li>
         <li>GraphQL.</li>

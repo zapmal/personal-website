@@ -9,15 +9,21 @@ interface Props {
   home?: boolean;
 }
 
-const Layout: React.FC<Props> = ({ home, children  }) => {
+const Layout: React.FC<Props> = ({ home, children }) => {
   return (
     <div className={styles.container}>
       <Head>
         <link rel='icon' href='/favicon.ico' />
         <meta name='title' content='Manuel Zapata - Software Engineer' />
         <meta name='og:title' content='Manuel Zapata - Software Engineer' />
-        <meta name='description' content='Welcome to my personal space on the internet, come on, take a seat.' />
-        <meta name='og:description' content='Welcome to my personal space on the internet, come on, take a seat.' />
+        <meta
+          name='description'
+          content='Welcome to my personal space on the internet, come on, take a seat.'
+        />
+        <meta
+          name='og:description'
+          content='Welcome to my personal space on the internet, come on, take a seat.'
+        />
         <meta name='twitter:card' content='summary_large_image' />
       </Head>
       <header className={styles.header}>
