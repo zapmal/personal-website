@@ -13,7 +13,7 @@ const Skills = () => {
       </Head>
       <h2>Skills</h2>
       <p>
-        Mainly focused on backend development. Since ~2020 I've been moving to a more full stack
+        Mainly focused on backend development. Since early 2020 I've been moving to a more full stack
         approach.
       </p>
 
@@ -24,7 +24,7 @@ const Skills = () => {
         <li>React.</li>
         <li>PHP / Laravel.</li>
         <li>Java.</li>
-        <li>Node.js / Express / NestJS.</li>
+        <li>Node.js / NestJS.</li>
         <li>Git, along with GitHub / Bitbucket.</li>
         <li>MySQL / PostgreSQL.</li>
         <li>Linux.</li>
