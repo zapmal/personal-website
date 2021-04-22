@@ -18,7 +18,7 @@ const About = () => {
         />
       </Head>
       <h2>
-        About <em>me</em>
+        About me
       </h2>
       <p>
         Hello 👋, I'm Manuel Zapata, Software Engineer based in Zulia,
@@ -31,7 +31,7 @@ const About = () => {
         on GitHub, which I've been using since ~2020.
       </p>
       <p>
-        I'm currently in my final year of CS and working as a Full Stack dev.
+        I'm currently in my final year of Computer Science and working as a Full Stack dev.
         Outside of programming, I enjoy video games, chess, cooking and{' '}
         <em>sometimes </em>languages.
       </p>
