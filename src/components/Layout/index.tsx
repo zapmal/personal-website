@@ -40,7 +40,7 @@ const Layout: React.FC<Props> = ({ home, children }) => {
                 typingDelay={1000}
               />
             </h1>
-            <h1 className={`${styles.heading} ${styles.headingTitle}`}>
+            <h1 className={`${styles.heading} ${styles.gradient}`}>
               Software Engineer
             </h1>
           </>
