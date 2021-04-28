@@ -27,7 +27,7 @@ const About = () => {
       <p>
         I like solving exciting and —sometimes— complex problems. I enjoy
         learning, be it new or old principles and technologies that I can apply
-        in building new, usable software. Most of my work is publicly available
+        in building new, usable, and robust software. Most of my work is publicly available
         on GitHub, which I've been using since ~2020.
       </p>
       <p>
