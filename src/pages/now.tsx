@@ -8,8 +8,8 @@ const Now = () => {
     <Layout>
       <Head>
         <title>{`/now - ${SITE_TITLE}`}</title>
-        <meta name='description' content='This is my now page, know what I up to.' />
-        <meta name='og:description' content='This is my now page, know what I up to.' />
+        <meta name='description' content="This is my now page, know what I'm up to." />
+        <meta name='og:description' content="This is my now page, know what I'm up to." />
       </Head>
       <h2>
         What I'm up to
