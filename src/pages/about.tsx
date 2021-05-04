@@ -10,11 +10,11 @@ const About = () => {
         <title>{`/about - ${SITE_TITLE}`}</title>
         <meta
           name='description'
-          content='This is my about page, get to know more about me.'
+          content='Get to know a little more about me.'
         />
         <meta
           name='og:description'
-          content='This is my about page, get to know more about me.'
+          content='Get to know a little more about me.'
         />
       </Head>
       <h2>
