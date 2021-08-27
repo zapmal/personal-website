@@ -28,19 +28,20 @@ const Skills = () => {
         <li>Git, along with GitHub / Bitbucket.</li>
         <li>MySQL / PostgreSQL.</li>
         <li>Linux.</li>
+        <li>Golang</li>
       </ul>
 
       <h3>Personal Projects / Internships</h3>
       <ul>
         <li>TypeScript.</li>
         <li>MongoDB / Redis.</li>
-        <li>SCSS / SASS / Material UI.</li>
+        <li>SASS / Chakra UI / Material UI.</li>
         <li>GraphQL.</li>
         <li>Next.js.</li>
         <li>C#.</li>
         <li>Docker.</li>
         <li>React Native.</li>
-        {/* <li>Elixir / Phoenix.</li> */}
+        <li>Elixir / Phoenix.</li>
       </ul>
     </Layout>
   );

@@ -24,15 +24,14 @@ const Now = () => {
         </a>
       </small>
       <ul>
-        <li>Starting to research things for my grad project.</li>
-        <li>Studying more about networking internals and cloud computing.</li>
+        <li>Working on my grad project.</li>
         <li>
           Going in-depth on some tech I like, but couldn't dedicate much time
           previously.
         </li>
       </ul>
       <small>
-        <em>Last update: 2021/04/18</em>
+        <em>Last update: 2021/08/27</em>
       </small>
     </Layout>
   );
