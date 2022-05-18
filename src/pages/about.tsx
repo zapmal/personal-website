@@ -28,12 +28,11 @@ const About = () => {
         I like solving exciting and —sometimes— complex problems. I enjoy
         learning, be it new or old principles and technologies that I can apply
         in building new, usable, and robust software. Most of my work is publicly available
-        on GitHub, which I've been using since ~2020.
+        on GitHub, which I've been using since early 2020.
       </p>
       <p>
-        I'm currently in my final year of Computer Science and working as a Full Stack dev.
-        Outside of programming, I enjoy video games, chess, cooking and{' '}
-        <em>sometimes </em>languages.
+        Outside of programming, I enjoy games, chess, cooking and{' '}
+        <em>sometimes </em> learning new languages.
       </p>
     </Layout>
   );

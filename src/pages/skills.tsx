@@ -13,14 +13,14 @@ const Skills = () => {
       </Head>
       <h2>Skills</h2>
       <p>
-        Mainly focused on backend development. Since early 2020 I've been moving to a more full stack
+        I've been mainly focused on backend development, but since early 2020 I've moving to a more full stack 
         approach.
       </p>
 
       <h3>Professionally</h3>
       <ul>
-        <li>HTML / CSS.</li>
-        <li>JavaScript.</li>
+        <li>HTML and CSS.</li>
+        <li>JavaScript and TypeScript.</li>
         <li>React.</li>
         <li>PHP / Laravel.</li>
         <li>Java.</li>
@@ -33,12 +33,10 @@ const Skills = () => {
 
       <h3>Personal Projects / Internships</h3>
       <ul>
-        <li>TypeScript.</li>
         <li>MongoDB / Redis.</li>
         <li>SASS / Chakra UI / Material UI.</li>
         <li>GraphQL.</li>
         <li>Next.js.</li>
-        <li>C#.</li>
         <li>Docker.</li>
         <li>React Native.</li>
         <li>Elixir / Phoenix.</li>

@@ -4,35 +4,30 @@ import cn from 'classnames';
 import styles from './contactbutton.module.css';
 
 interface Props {
-  method: 'twitter' | 'github' | 'email';
+  method: 'twitter' | 'github' | 'email' | 'linkedin';
 }
-
-// type Props = {
-//   method: 'twitter' | 'github' | 'email';
-// };
 
 const activeContactMethods = {
   github: {
     alt: 'GitHub',
     href: 'https://github.com/zapmal',
     width: 30,
-    height: 32,
   },
   twitter: {
     alt: 'Twitter',
     href: 'https://twitter.com/zapmal0',
-    width: 32,
-    height: 32,
   },
   email: {
     alt: 'Email',
     href: 'mailto:mzxgd16@gmail.com',
-    width: 32,
-    height: 32,
-  }
+  },
+  linkedin: {
+    alt: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/manuel-zapata-ab1028176',
+  },
 };
 
-const ContactButton: React.FC<Props> = ({ method }) => {
+const ContactButton = ({ method }: Props) => {
   return (
     <button
       className={cn({
@@ -40,14 +35,14 @@ const ContactButton: React.FC<Props> = ({ method }) => {
         [styles.twitter]: method === 'twitter',
       })}
     >
-      <a 
-        href={activeContactMethods[method].href} 
+      <a
+        href={activeContactMethods[method].href}
         target={method !== 'email' ? '_blank' : ''}
       >
         <img
           src={`/images/${method}.png`}
-          width={activeContactMethods[method].width}
-          height={activeContactMethods[method].height}
+          width={32}
+          height={32}
           alt={activeContactMethods[method].alt}
         />
       </a>

@@ -7,9 +7,10 @@ import utilStyles from '../../styles/utils.module.css';
 
 interface Props {
   home?: boolean;
+  children?: React.ReactNode;
 }
 
-const Layout: React.FC<Props> = ({ home, children }) => {
+const Layout = ({ home, children }: Props) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -34,7 +35,7 @@ const Layout: React.FC<Props> = ({ home, children }) => {
             </h1>
             <h1 className={styles.typewriter}>
               <ReactTypingEffect
-                text={['code', 'take breaks', 'read', 'do silly stuff']}
+                text={['code', 'take breaks', 'read', 'learn']}
                 speed={100}
                 eraseDelay={1500}
                 typingDelay={1000}

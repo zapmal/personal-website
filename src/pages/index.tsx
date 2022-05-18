@@ -14,7 +14,7 @@ const ROUTES = [
   { name: '/now' },
   { name: '/skills', },
   // { name: '/blog', disabled: true, },
-  { name: '/projects', disabled: true },
+  { name: '/projects', disabled: false },
 ];
 
 const Home = () => {
@@ -41,9 +41,10 @@ const Home = () => {
         <ContactButton method='github' />
         <ContactButton method='email' />
         <ContactButton method='twitter' />
+        <ContactButton method='linkedin' />
       </section>
       <footer className={styles.footer}>
-        <small>2021 - Made with 💙 and Next.js, deployed on Vercel.</small>
+        <small>2022 - Made with 💙 and Next.js, deployed on Vercel.</small>
       </footer>
     </Layout>
   );
