@@ -7,14 +7,14 @@ const Projects = () => {
   return (
     <Layout>
       <Head>
-        <title>{`/about - ${SITE_TITLE}`}</title>
+        <title>{`/projects - ${SITE_TITLE}`}</title>
         <meta
           name="description"
-          content="Get to know a little more about me."
+          content="Get to know about the projects I've made."
         />
         <meta
           name="og:description"
-          content="Get to know a little more about me."
+          content="Get to know about the projects I've made."
         />
       </Head>
       <h2>Hello!</h2>
