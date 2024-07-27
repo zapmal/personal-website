@@ -35,7 +35,7 @@ const Layout = ({ home, children }: Props) => {
             </h1>
             <h1 className={styles.typewriter}>
               <ReactTypingEffect
-                text={['code', 'take breaks', 'read', 'learn']}
+                text={['code 🤓', 'sleep 😴', 'read', 'learn']}
                 speed={100}
                 eraseDelay={1500}
                 typingDelay={1000}
@@ -55,10 +55,10 @@ const Layout = ({ home, children }: Props) => {
             <div className={styles.linkWrapper}>
               <a
                 className={styles.link}
-                href='https://twitter.com/zapmal0'
+                href='https://x.com/zapmal0'
                 target='_blank'
               >
-                Twitter
+                X 
               </a>
               <a
                 className={styles.link}

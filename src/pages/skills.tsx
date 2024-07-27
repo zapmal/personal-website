@@ -22,23 +22,23 @@ const Skills = () => {
         <li>HTML and CSS.</li>
         <li>JavaScript and TypeScript.</li>
         <li>React.</li>
+        <li>React Native (with Expo).</li>
         <li>PHP / Laravel.</li>
         <li>Java.</li>
         <li>Node.js / NestJS.</li>
         <li>Git, along with GitHub / Bitbucket.</li>
         <li>MySQL / PostgreSQL.</li>
         <li>Linux.</li>
-        <li>Golang</li>
+        <li>Wordpress.</li>
       </ul>
 
       <h3>Personal Projects / Internships</h3>
       <ul>
+        <li>Golang.</li>
         <li>MongoDB / Redis.</li>
         <li>SASS / Chakra UI / Material UI.</li>
-        <li>GraphQL.</li>
         <li>Next.js.</li>
         <li>Docker.</li>
-        <li>React Native.</li>
         <li>Elixir / Phoenix.</li>
       </ul>
     </Layout>

@@ -18,7 +18,7 @@ const Projects = () => {
         />
       </Head>
       <h2>Hello!</h2>
-      <p>This page is a work in progress. My GitHub pins contain my most remarkable (personal) work.</p>
+      <p>This page is a work in progress, please come back soon! 🔜.</p>
     </Layout>
   );
 };

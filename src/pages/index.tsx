@@ -12,9 +12,9 @@ import { SITE_TITLE } from '../constants';
 const ROUTES = [
   { name: '/about' },
   { name: '/now' },
-  { name: '/skills', },
+  { name: '/skills' },
   // { name: '/blog', disabled: true, },
-  { name: '/projects', disabled: false },
+  { name: '/projects', disabled: true },
 ];
 
 const Home = () => {
@@ -40,11 +40,11 @@ const Home = () => {
       <section className={styles.socials}>
         <ContactButton method='github' />
         <ContactButton method='email' />
-        <ContactButton method='twitter' />
+        <ContactButton method='x' />
         <ContactButton method='linkedin' />
       </section>
       <footer className={styles.footer}>
-        <small>2022 - Made with 💙 and Next.js, deployed on Vercel.</small>
+        <small>2024 - Made with 💙 and Next.js (Don't ask me why LMAO). Deployed on Vercel!</small>
       </footer>
     </Layout>
   );

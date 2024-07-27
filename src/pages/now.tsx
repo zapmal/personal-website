@@ -24,10 +24,10 @@ const Now = () => {
         </a>
       </small>
       <ul>
-        <li>Soon 👀</li>
+        <li>Working and trying to study 🫨.</li>
       </ul>
       <small>
-        <em>Last update: 2022/05/18</em>
+        <em>Last update: 7/27/2024</em>
       </small>
     </Layout>
   );

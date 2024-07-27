@@ -21,18 +21,17 @@ const About = () => {
         About me
       </h2>
       <p>
-        Hello 👋, I'm Manuel Zapata, Software Engineer based in Zulia,
-        Venezuela.
+        Hello 👋, I'm Manuel Zapata, Software Engineer <i>currently</i> based on <strong>Zulia,
+        Venezuela.</strong>
       </p>
       <p>
         I like solving exciting and —sometimes— complex problems. I enjoy
         learning, be it new or old principles and technologies that I can apply
-        in building new, usable, and robust software. Most of my work is publicly available
-        on GitHub, which I've been using since early 2020.
+        in building new, usable, and robust software. Most of my personal work is publicly available
+        on GitHub, which I've been using since early 2020 but stopped using midways 2022 due to work (we use Bitbucket over there 😅).
       </p>
       <p>
-        Outside of programming, I enjoy games, chess, cooking and{' '}
-        <em>sometimes </em> learning new languages.
+        Outside of programming, I enjoy games, chess, cooking and learning new languages! (🇫🇷).
       </p>
     </Layout>
   );
